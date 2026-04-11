@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Progressão de Treino</title>
+    <link rel="stylesheet" href="./src/styles/styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>{ ABSOLUTE ♤ DOMINIUS }</h1>
+        </header>
+
+        <main>
+            <div class="controls">
+                <div class="control-group">
+                    <label for="day-select">Selecione o Dia do Treino:</label>
+                    <select id="day-select"></select>
+                </div>
+                <div class="control-group">
+                    <label for="exercise-select">Selecione o Exercício:</label>
+                    <select id="exercise-select"></select>
+                </div>
+            </div>
+
+            <div id="exercise-details" class="card">
+                
+            </div>
+            
+            <div id="feedback-section" class="card">
+                <div class="control-group">
+                    <label for="notes-input">Anotações:</label>
+                    <textarea id="notes-input" rows="4" placeholder="Ex: Exercução: Evolução: Objetivo: "></textarea>
+                </div>
+                <button id="save-exercise-btn">Salvar Exercício</button>
+            </div>
+            
+            <button id="finish-workout-btn">Finalizar Treino e Salvar</button>
+            <div id="suggestion" class="card-suggestion hidden"></div>
+
+            <div class="history-controls">
+                <button id="toggle-history-btn">Mostrar/Ocultar Histórico</button>
+            </div>
+            <div id="history-log" class="hidden">
+                <h2>Histórico de Treinos</h2>
+                <div id="history-content"></div>
+                <button id="clear-history-btn">Apagar Histórico</button>
+            </div>
+        </main>
+    </div>
+
+    <script type="module" src="./src/script/script.js"></script>
+</body>
+</html>
