@@ -1,4 +1,4 @@
-# ABSOLUTE DOMINIUS
+# GymProgress
 
 > **Rastreador de Sobrecarga Progressiva** — Um companheiro de treino offline-first pronto para PWA que transforma o progresso na academia em dados mensuráveis.
 
@@ -26,7 +26,7 @@ A maioria das pessoas que treinam não acompanha o progresso de forma sistemáti
 
 ## A Solução
 
-**ABSOLUTE DOMINIUS** é um **rastreador de sobrecarga progressiva 100% offline-first** que:
+**GymProgress** é um **rastreador de sobrecarga progressiva 100% offline-first** que:
 
 * Registra peso, repetições e notas de execução para cada exercício
 * Mantém o histórico completo de treinos no dispositivo
