@@ -123,25 +123,24 @@ ABSOLUTE DOMINIUS/
 
 ### Pré-requisitos
 
-* Celular Android (Chrome, Firefox, Samsung Browser)
-* Ou iOS (Safari, Chrome)
-* Nenhuma instalação necessária
+* Ter um smartphone funcionando
 
 ### Setup 
 
 **Opção 1: Web Code (Android)**
 
 1. Instale o app Web Code
-2. Baixe este repositório em ZIP
+2. Baixe este repositório em .ZIP
 3. Extraia no celular
 4. Abra `index.html` no Web Code
 5. Pronto — app funcionando offline
 
 **Opção 2: Navegador direto**
 
-1. Clone/baixe o repositório
-2. Abra `index.html` no navegador
-3. (Opcional) Adicione à tela inicial
+1. Baixe este repositório em .ZIP
+2. Extraia no celular
+3. Abra `index.html` no navegador
+4. (Opcional) Adicione à tela inicial
 
 ### Fluxo diário
 
