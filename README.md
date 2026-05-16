@@ -169,9 +169,14 @@ ABSOLUTE DOMINIUS/
 
 ```
 {
-  grupo: [
-    { name: 'nome do exercicio', sets: 3, reps: '8-10' },
-    { name: 'nome do exercicio', sets: 3, reps: '8-10' },
+  'Grupo1': [
+    { name: 'exercício1', sets: 3, reps: '8-10' },
+    { name: 'exercício2', sets: 3, reps: '8-10' },
+  ],
+
+'Grupo2': [
+    { name: 'exercício1', sets: 3, reps: '8-10' },
+    { name: 'exercício2', sets: 3, reps: '8-10' },
   ],
 }
 ```
@@ -299,9 +304,7 @@ Encontrou um bug ou tem ideias? Contribuições são bem-vindas.
 
 ---
 
-**Version**: 1.0.1
-**Last Updated**: Maio 2026
-**Status**: Produção pronta e mantida ativamente
+**Version**: 1.0.1 | **Last Updated**: Maio 2026 | **Status**: Produção pronta e mantida ativamente
 
 ---
 
