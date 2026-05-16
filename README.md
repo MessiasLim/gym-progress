@@ -1,4 +1,4 @@
-# ABSOLUTE DOMINIUS
+# GymProgress
 
 > **Rastreador de Sobrecarga Progressiva** — Um companheiro de treino offline-first pronto para PWA que transforma o progresso na academia em dados mensuráveis.
 
@@ -8,6 +8,14 @@
 ![localStorage](https://img.shields.io/badge/Storage-localStorage-green?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square)
 ![Mobile](https://img.shields.io/badge/Platform-Mobile%20Optimized-blue?style=flat-square)
+
+---
+
+## Demo ao vivo
+
+**[▶ Visualizar Projeto](https://messiaslim.github.io/gym-progress/)**
+
+> Funciona diretamente no navegador — sem instalação, sem conta, sem internet.
 
 ---
 
@@ -26,7 +34,7 @@ A maioria das pessoas que treinam não acompanha o progresso de forma sistemáti
 
 ## A Solução
 
-**ABSOLUTE DOMINIUS** é um **rastreador de sobrecarga progressiva 100% offline-first** que:
+**GymProgress** é um **rastreador de sobrecarga progressiva 100% offline-first** que:
 
 * Registra peso, repetições e notas de execução para cada exercício
 * Mantém o histórico completo de treinos no dispositivo
@@ -123,25 +131,24 @@ ABSOLUTE DOMINIUS/
 
 ### Pré-requisitos
 
-* Celular Android (Chrome, Firefox, Samsung Browser)
-* Ou iOS (Safari, Chrome)
-* Nenhuma instalação necessária
+* Ter um smartphone funcionando
 
 ### Setup 
 
 **Opção 1: Web Code (Android)**
 
 1. Instale o app Web Code
-2. Baixe este repositório em ZIP
+2. Baixe este repositório em .ZIP
 3. Extraia no celular
 4. Abra `index.html` no Web Code
 5. Pronto — app funcionando offline
 
 **Opção 2: Navegador direto**
 
-1. Clone/baixe o repositório
-2. Abra `index.html` no navegador
-3. (Opcional) Adicione à tela inicial
+1. Baixe este repositório em .ZIP
+2. Extraia no celular
+3. Abra `index.html` no navegador
+4. (Opcional) Adicione à tela inicial
 
 ### Fluxo diário
 
@@ -162,16 +169,10 @@ ABSOLUTE DOMINIUS/
 
 ```
 {
-  exercices: [
-    {
-      name: "Bench Press",
-      sets: [
-        { weight: 80, reps: 8, notes: "RPE 8" },
-        { weight: 80, reps: 8, notes: "" },
-        { weight: 80, reps: 7, notes: "Dificuldade" }
-      ]
-    }
-  ]
+  grupo: [
+    { name: 'nome do exercicio', sets: 3, reps: '8-10' },
+    { name: 'nome do exercicio', sets: 3, reps: '8-10' },
+  ],
 }
 ```
 
@@ -290,22 +291,16 @@ python3 -m http.server 8000
 
 Encontrou um bug ou tem ideias? Contribuições são bem-vindas.
 
-### Issues
-
-* Visualização de gráficos
-* Backup do localStorage
-* Indicadores offline (PWA)
-
----
-
-## License
-
-MIT — uso livre.
+1. Fork este repositório
+2. Crie uma branch (`git checkout -b feature/nome-da-feature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/nome-da-feature`)
+5. Abra um Pull Request
 
 ---
 
-**Version**: 1.0.0
-**Last Updated**: Abril 2026
+**Version**: 1.0.1
+**Last Updated**: Maio 2026
 **Status**: Produção pronta e mantida ativamente
 
 ---
